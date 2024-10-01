@@ -6,16 +6,16 @@ const Hero = () => {
   return (
     <div className="block">
       <div
-        className="h-[400px] xl:h-[600px] lg:h-[450px] smbg-no-repeat bg-cover bg-center-top "
+        className="h-auto md:h-[440px] xl:h-[600px] lg:h-[450px] smbg-no-repeat bg-cover bg-center-top "
         style={{ backgroundImage: `url(${assets.hero_2})` }}
       >
-        <div className="mx-auto xl:max-w-[1170px] ">
+        <div className="mx-auto md: xl:max-w-[1170px] ">
           <div className="flex flex-wrap -mx-4">
-            <div className="relative w-full px-12 md:w-8/12 lg:w-7/12 xl:w-5/12 top-20 ">
+            <div className="relative w-full lg:p-4 p-7 sm:px-8 lg:px-12 sm:w-10/12 md:w-8/12 lg:w-7/12 xl:w-5/12 lg:top-20 justify-center">
               <h6 className="text-[#e53637] text-sm font-bold uppercase tracking-widest mb-7 relative opacity-1 top-0">
                 Summer Collection
               </h6>
-              <h2 className=" text-gray-900 opacity-1 text-5xl font-bold leading-tight mb-6 ">
+              <h2 className=" text-gray-900 opacity-1 text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-6 ">
                 Fall - Winter Collections 2030
               </h2>
               <p className="prata-regular text-[15px] leading-[25px] mb-9 relative">
