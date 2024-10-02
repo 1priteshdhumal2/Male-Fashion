@@ -62,6 +62,9 @@ import cart_icon from './icon/cart_icon.png'
 import menu_icon from './icon/menu_icon.png'
 import dropdown_icon from './icon/dropdown_icon.png'
 import hero_2 from './hero/hero-2.jpg'
+import exchange_icon from './exchange_icon.png'
+import quality_icon from './quality_icon.png'
+import support_img from './support_img.png'
 
 export const assets = {
     logo,
@@ -71,6 +74,9 @@ export const assets = {
     menu_icon,
     dropdown_icon,
     hero_2,
+    exchange_icon,
+    quality_icon,
+    support_img,
 }
 
 export const products = [
