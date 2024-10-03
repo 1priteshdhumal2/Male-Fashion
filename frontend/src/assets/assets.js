@@ -66,6 +66,8 @@ import exchange_icon from './exchange_icon.png'
 import quality_icon from './quality_icon.png'
 import support_img from './support_img.png'
 import cross_icon from './cross_icon.png'
+import star_icon from './star_icon.png'
+import star_dull_icon from './star_dull_icon.png'
 
 export const assets = {
     logo,
@@ -79,6 +81,8 @@ export const assets = {
     quality_icon,
     support_img,
     cross_icon,
+    star_icon,
+    star_dull_icon,
 }
 
 export const products = [
