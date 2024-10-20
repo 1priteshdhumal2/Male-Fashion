@@ -34,7 +34,7 @@ const Footer = () => {
             <div>
                 <hr />
                 <p className='py-5 text-sm text-center'>
-                    © 2024 Male Fashion. All rights reserved.
+                    © 2024 Male Fashion & Pritesh Dhumal. All rights reserved.
                 </p>
             </div>
         </div>
